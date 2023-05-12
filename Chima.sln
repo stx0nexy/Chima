@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{66997119-3EBD-446A-9CE7-586496DF21CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.Host", "Catalog\Catalog.Host\Catalog.Host.csproj", "{20020BDD-FA13-490D-B22F-AD45AF5E171D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{DCCDCD6F-9A34-4064-97A7-AD009B3F66EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure\Infrastructure.csproj", "{2FB88D92-C418-4D84-9FDF-0F97DB8F9F1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20020BDD-FA13-490D-B22F-AD45AF5E171D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20020BDD-FA13-490D-B22F-AD45AF5E171D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20020BDD-FA13-490D-B22F-AD45AF5E171D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20020BDD-FA13-490D-B22F-AD45AF5E171D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FB88D92-C418-4D84-9FDF-0F97DB8F9F1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FB88D92-C418-4D84-9FDF-0F97DB8F9F1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FB88D92-C418-4D84-9FDF-0F97DB8F9F1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FB88D92-C418-4D84-9FDF-0F97DB8F9F1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{20020BDD-FA13-490D-B22F-AD45AF5E171D} = {66997119-3EBD-446A-9CE7-586496DF21CB}
+		{2FB88D92-C418-4D84-9FDF-0F97DB8F9F1A} = {DCCDCD6F-9A34-4064-97A7-AD009B3F66EE}
+	EndGlobalSection
+EndGlobal
